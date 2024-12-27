@@ -2,7 +2,7 @@ spring:
   application:
     name: BooksApp
   cache:
-    type: redis # none, simple, redis
+    type: none # none, simple, redis
     redis:
       cache-null-values: true
       host: localhost
