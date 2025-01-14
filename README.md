@@ -1,6 +1,7 @@
 # Spring boot Redis implementation
 # https://www.geeksforgeeks.org/spring-boot-caching-with-redis/
 # https://javatechonline.com/how-to-implement-redis-cache-in-spring-boot-application/
+# Keyvault implemntation in Spring boot: https://www.youtube.com/watch?v=hZAYrVotthI&list=PLrlbnvtRPssvL0JICgq-8EKOw6K9wuZIv&index=6
 
 ## How to use commands in Redis CLI?
 1) To get all Keys: 127.0.0.1:6379> KEYS *
@@ -21,3 +22,13 @@
 2) Terraform manages external resources like public cloud infrastructure, private cloud infrastructure, network appliances, software as a service, and platform as a service with a concept known as providers.
 3) Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 4) https://www.youtube.com/watch?v=IyfdN5_fB1I&list=PLOa-edppsqFm10V0vh-szO7YffAKcW5K-
+
+## Spring boot with Azure spring cloud / Spring boot java learnings
+1) Spring Cloud Azure
+   https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/ 
+2) Get started with Java on Azure
+   https://learn.microsoft.com/en-us/training/paths/get-started-java-azure/?source=learn
+
+## Minikube installation
+1) https://www.youtube.com/watch?v=k4DEuO6C_jI
+2) 

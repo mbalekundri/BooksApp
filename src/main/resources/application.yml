@@ -25,12 +25,22 @@ spring:
   datasource:
     url: jdbc:h2:mem:booksdb
     driver-class-name: org.h2.Driver
-    username: ${DB_USERNAME:sa}
-    password: ${DB_PASSWORD:}
+    username: ${H2-DB-USERNAME}
+    password: ${H2-DB-PASSWORD}
   sql:
     init:
       mode: always
       platform: h2
       schema-locations: classpath:/1_schema.sql
       data-locations: classpath:/2_data.sql
+
+
+
+  cloud:
+    azure:
+      keyvault:
+        secret:
+          endpoint: https://my-key-vault-1979.vault.azure.net/
+
+
 # Swagger URL : http://localhost:8080/swagger-ui/index.html
